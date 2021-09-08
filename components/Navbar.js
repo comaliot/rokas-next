@@ -54,11 +54,12 @@ const Navbar = () => {
             About
           </Button>
         </NextLink>
-        {/* <NextLink href="/projects" passHref>
+        <NextLink href="/projects" passHref>
           <Button
             as="a"
             variant="ghost"
             p={[1, 2, 4]}
+            ml={2}
             _hover={{ backgroundColor: navHoverBg[colorMode] }}
             backgroundColor={
               router.pathname === '/projects' ? navHoverBg[colorMode] : null
@@ -67,7 +68,7 @@ const Navbar = () => {
           >
             Projects
           </Button>
-        </NextLink> */}
+        </NextLink>
         {/* <NextLink href="/blog" passHref>
           <Button
             as="a"
